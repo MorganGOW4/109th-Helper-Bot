@@ -15,11 +15,11 @@ class MyBot(commands.Bot):
 
     # The setup hook is called before the bot connects to Discord
     async def setup_hook(self):
-        # Loop through all files in the cogs directory
-        for filename in os.listdir("./cogs"):
+        # Loop through all files in the commands directory
+        for filename in os.listdir("./commands"):
             if filename.endswith(".py"):
-                # Load the cog using dot notation (e.g., cogs.general)
-                await self.load_extension(f"cogs.{filename[:-3]}")
+                # Load the cog using dot notation (e.g., commands.general)
+                await self.load_extension(f"commands.{filename[:-3]}")
                 print(f"Loaded extension: {filename[:-3]}")
 
 bot = MyBot()
