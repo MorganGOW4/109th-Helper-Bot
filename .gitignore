@@ -1,0 +1,17 @@
+# Hide secret keys and environment files
+.env
+config.json
+
+# Hide python virtual environments and cache
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Hide Node.js dependencies
+node_modules/
+npm-debug.log*
+
+# Hide system or IDE specific files
+.DS_Store
+.vscode/
