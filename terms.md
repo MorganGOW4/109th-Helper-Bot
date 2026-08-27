@@ -1,4 +1,4 @@
-# Terms and Conditions for Discord Bot
+# Terms and Conditions for 109th Helper Bot
 
 **Last Updated:** August 27, 2026
 
