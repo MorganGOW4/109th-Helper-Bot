@@ -1,7 +1,9 @@
 # Terms and Conditions for Discord Bot
----
-Last Updated: August 27, 2026
+
+**Last Updated:** August 27, 2026
+
 Welcome to our Discord Bot (the "Bot"). By adding the Bot to your Discord server (guild), interacting with it, or using its features, you (the "User" or "Server Administrator") agree to be legally bound by these Terms and Conditions ("Terms"). If you do not agree to these Terms, you must immediately remove the Bot from your server and cease all interaction with it.
+
 ---
 1. Acceptance and Compliance
 Platform Agreement: You agree to comply with Discord's official [Terms of Service](https://discord.com/terms) and [Community Guidelines](https://discord.com/guidelines) at all times while using this Bot.
