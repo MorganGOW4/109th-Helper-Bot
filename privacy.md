@@ -1,4 +1,4 @@
-# Privacy Policy for Discord Bot
+# Privacy Policy for 109th Helper Bot
 
 **Last Updated:** August 27, 2026
 
