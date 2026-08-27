@@ -1,11 +1,7 @@
 import os
 import discord
+import config as c
 from discord.ext import commands
-from dotenv import load_dotenv
-
-# Load secret token from your hidden .env file
-load_dotenv()
-TOKEN = os.getenv("DISCORD_BOT_TOKEN")
  
 class MyBot(commands.Bot):
     def __init__(self):
@@ -31,4 +27,4 @@ async def on_ready():
     bot.tree.copy_global_to(guild=guild_object)
     await bot.tree.sync(guild=guild_object)
 
-bot.run(TOKEN)
+bot.run(c.TOKEN)
